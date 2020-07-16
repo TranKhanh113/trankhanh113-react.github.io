@@ -10,17 +10,23 @@ import EventBinding from './EventBinding/EventBinding';
 import RenderWithState from './RenderWithState/RenderWithState';
 import BTChonXe from './RenderWithState/BTChonXe';
 import RenderWithMap from './RenderWithMap/RenderWithMap';
+import ExampleGlasses from './RenderWithState/ExampleGlasses';
+import DemoProps from './Props/DemoProps';
+// import FunctionProp from './Props/FunctionProp';
 
 function App() {
   return (
     <div>
-      {/* <BTLayout /> */}
+      <BTLayout />
       {/* <BTlayout2 /> */}
       {/* <DataBinding /> */}
       {/* <EventBinding /> */}
       {/* <RenderWithState /> */}
       {/* <BTChonXe /> */}
-      <RenderWithMap />
+      {/* <RenderWithMap /> */}
+      {/* <ExampleGlasses /> */}
+      {/* <DemoProps /> */}
+      {/* <FunctionProp /> */}
     </div>
   );
 }
